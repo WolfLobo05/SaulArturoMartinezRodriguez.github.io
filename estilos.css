@@ -1,0 +1,136 @@
+
+/* Fondo de imagen en el encabezado */
+header {
+    background-image: url(galaxy.png); /* Cambia por la ruta de tu imagen */
+    background-size: cover; /* La imagen cubre toda el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Hace que el header ocupe toda la altura de la ventana */
+    color: white; /* Asegura que el texto sea legible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    text-align: center;
+}
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Fondo general de la página */
+    color: #333; /* Color de texto */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #0056b3; /* Color de fondo del encabezado */
+    color: #fff; /* Color de texto en el encabezado */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Menú horizontal */
+.horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.horizontal li {
+    margin: 0 15px;
+}
+
+.horizontal li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.horizontal li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Sección de unidades y contenido */
+.unidad {
+    background-color: #fff; /* Fondo blanco para las unidades */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none; /* Ocultar por defecto */
+}
+
+/* Subtemas dentro de cada unidad */
+.unidad h2 {
+    color: #0056b3; /* Color para los encabezados */
+}
+
+.unidad h3, .unidad h4 {
+    color: #333; /* Color de los subtítulos */
+}
+
+.unidad ul {
+    padding-left: 20px;
+}
+
+.unidad img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Información de contacto */
+.contact-info {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #0056b3;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #0056b3; /* Fondo del pie de página */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
